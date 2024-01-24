@@ -1,0 +1,107 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498db; /* Border color */
+    border-radius: 5px; /* Border radius to make it rounded */
+    color: #ffffff; /* Text color */
+    background-color: #3498db; /* Background color */
+    transition: background-color 0.3s ease; /* Transition for smoother hover effect */
+  }
+  
+  /* Hover effect */
+  .button:hover {
+    background-color: #2980b9; /* Darker background color on hover */
+    border-color: #2980b9; /* Darker border color on hover */
+  }
+  /* Style for the Add Project button */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Container for the main content */
+.page-container {
+    display: flex;
+}
+
+/* Style for the left half */
+.left-half {
+    width: 40%;
+    padding: 20px;
+  
+    box-sizing: border-box;
+    background-color: #c2dff3;
+    color: #ed3b3b;
+}
+
+/* Style for the right half */
+.right-half {
+    width: 60%;
+    padding: 20px;
+    
+    box-sizing: border-box;
+    background-color: #b9f8d3;
+    color: #ffffff;
+}
+.short-image {
+  max-height: 90px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+.input {
+  display: block;
+  margin-bottom: 10px; /* Optional: Add space between inputs */
+  width: 100%; /* Optional: Make inputs take full width */
+  box-sizing: border-box; /* Include padding and border in the total width */
+  padding: 8px; /* Optional: Adjust padding for better appearance */
+  font-size: 14px; /* Optional: Adjust font size */
+}
+.project-details {
+  max-width: 800px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Optional: Add padding for spacing */
+  box-sizing: border-box; /* Include padding in the total width */
+  background-color: #f2f2f2; /* Background color for the container */
+}
+/* Individual detail div styling */
+.project-detail {
+  margin-bottom: 20px; /* Optional: Add space between details */
+  padding: 15px; /* Optional: Add padding for spacing */
+  box-sizing: border-box; /* Include padding in the total width */
+  border: 1px solid #ddd; /* Optional: Add border for separation */
+  background-color: #fff; /* Background color for each project detail */
+}
+
+/* Title styling */
+.project-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333; /* Text color for the title */
+}
+
+/* Description styling */
+.project-description {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555; /* Text color for the description */
+}
